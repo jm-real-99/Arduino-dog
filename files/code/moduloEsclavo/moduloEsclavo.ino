@@ -2,10 +2,10 @@
 #include "CTBot.h"
 #include "Utilities.h" // for int64ToAscii() helper function
 
-String ssid  = "Orange-D51A"    ; // REPLACE mySSID WITH YOUR WIFI SSID
-String pass  = "643ACA24"; // REPLACE myPassword YOUR WIFI PASSWORD, IF ANY
-String token = "2048651549:AAEkJqTwos9Y6iDIGYeG_ZnVa7GBK5Yg2rY"   ; // REPLACE myToken WITH YOUR TELEGRAM BOT TOKEN
-uint32_t myId = 605994901;
+String ssid  = "MYRouter-XXXX"    ; // REPLACE mySSID WITH YOUR WIFI SSID
+String pass  = "xxxxxxxxxx"; // REPLACE myPassword YOUR WIFI PASSWORD, IF ANY
+String token = "telegramToken:telegramTokenYeG_ZnVa7GBK5Yg2rY"   ; // REPLACE myToken WITH YOUR TELEGRAM BOT TOKEN
+uint32_t myId = XXXXXXX; //Replace with my telegram id. You can get it by asking the bot
 
 SoftwareSerial mySerial(4, 5); //RX TX
 
